@@ -1,0 +1,264 @@
+*{margin: 0px; padding: 0px}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+
+body {
+    font-family: 'Montserrat', sans-serif; 
+    background-color: white;
+}
+
+
+.navbar-brand{
+    font-family: 'Montserrat', serif;
+    font-size: 50px;
+    text-decoration: none;
+    margin-left: px;
+    padding: 5px;
+;
+
+}
+
+.navbar-nav{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 70px;
+    text-decoration: none;
+
+}
+
+.fotonav{
+    width: 50%;
+    margin-left :10px;
+
+}
+
+
+body {
+  background: #f1f1fa;
+}
+
+.container1{
+  margin: 140px auto 0;
+  font-size: 0;
+  max-width: 560px;
+  text-align: center;
+  width: 500%
+}
+
+.wrap {
+  -webkit-transform: rotate(45deg) translate3d(0, 0, 0);
+  -moz-transform: rotate(45deg) translate3d(0, 0, 0);
+  -ms-transform: rotate(45deg) translate3d(0, 0, 0);
+  -o-transform: rotate(45deg) translate3d(0, 0, 0);
+  transform: rotate(45deg) translate3d(0, 0, 0);
+  display: inline-block;
+  -webkit-transition: -webkit-transform 300ms ease-out;
+  -moz-transition: -moz-transform 300ms ease-out;
+  transition: transform 300ms ease-out;
+  width: 100px;
+}
+.wrap:hover {
+  -webkit-transition: -webkit-transform 500ms ease-out;
+  -moz-transition: -moz-transform 500ms ease-out;
+  transition: transform 500ms ease-out;
+  -webkit-transform: rotate(45deg) translate3d(10px, 10px, 0);
+  -moz-transform: rotate(45deg) translate3d(10px, 10px, 0);
+  -ms-transform: rotate(45deg) translate3d(10px, 10px, 0);
+  -o-transform: rotate(45deg) translate3d(10px, 10px, 0);
+  transform: rotate(45deg) translate3d(10px, 10px, 0);
+}
+.wrap:nth-child(even) {
+  width: 40px;
+  -webkit-transform: rotate(225deg) translate3d(30px, 120px, 0);
+  -moz-transform: rotate(225deg) translate3d(30px, 120px, 0);
+  -ms-transform: rotate(225deg) translate3d(30px, 120px, 0);
+  -o-transform: rotate(225deg) translate3d(30px, 120px, 0);
+  transform: rotate(225deg) translate3d(30px, 120px, 0);
+}
+.wrap:nth-child(even) .crop img {
+  -webkit-transform: skew(-20deg, -20deg) rotate(-225deg);
+  -moz-transform: skew(-20deg, -20deg) rotate(-225deg);
+  -ms-transform: skew(-20deg, -20deg) rotate(-225deg);
+  -o-transform: skew(-20deg, -20deg) rotate(-225deg);
+  transform: skew(-20deg, -20deg) rotate(-225deg);
+}
+.wrap:nth-child(even):hover {
+  -webkit-transform: rotate(225deg) translate3d(40px, 130px, 0);
+  -moz-transform: rotate(225deg) translate3d(40px, 130px, 0);
+  -ms-transform: rotate(225deg) translate3d(40px, 130px, 0);
+  -o-transform: rotate(225deg) translate3d(40px, 130px, 0);
+  transform: rotate(225deg) translate3d(40px, 130px, 0);
+}
+
+.crop {
+  position: relative;
+  width: 160px;
+  height: 160px;
+  margin: 0;
+  display: block;
+  overflow: hidden;
+  -webkit-transform: skew(20deg, 20deg) translate3d(0, 0, 0);
+  -moz-transform: skew(20deg, 20deg) translate3d(0, 0, 0);
+  -ms-transform: skew(20deg, 20deg) translate3d(0, 0, 0);
+  -o-transform: skew(20deg, 20deg) translate3d(0, 0, 0);
+  transform: skew(20deg, 20deg) translate3d(0, 0, 0);
+}
+.crop img {
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  left: -50%;
+  margin-top: 36px;
+  margin-left: 36px;
+  top: -50%;
+  -webkit-transform: skew(-20deg, -20deg) rotate(-45deg);
+  -moz-transform: skew(-20deg, -20deg) rotate(-45deg);
+  -ms-transform: skew(-20deg, -20deg) rotate(-45deg);
+  -o-transform: skew(-20deg, -20deg) rotate(-45deg);
+  transform: skew(-20deg, -20deg) rotate(-45deg);
+  opacity: ;
+  -webkit-transition: opacity 300ms ease-in-out;
+  -moz-transition: opacity 300ms ease-in-out;
+  transition: opacity 300ms ease-in-out;
+}
+.crop img:hover {
+  opacity: 0.7;
+}
+
+.hide {
+  display: none;
+}
+
+.hide:hover {
+  display: block;
+}
+
+
+
+h1  { 
+    font-size:30px; 
+    margin: auto;
+    color:;
+    padding-top: 20px
+    
+    }
+
+
+
+
+
+.hist{ 
+  
+ animation-name: entar;
+ animation-duration: 3s;
+ animation-delay: 0s;
+
+    
+    }
+
+
+.balla {
+ animation-name: entrar;
+ animation-duration: 3s;
+ animation-delay: 0s;
+}
+
+.boccioni{
+ animation-name: entar;
+ animation-duration: 6s;
+ animation-delay: 0s;
+}
+
+.ob1 {
+ animation-name: entar;
+ animation-duration: 3s;
+ animation-delay: 0s;
+}
+
+.ob2 {
+ animation-name: entar;
+ animation-duration: 6s;
+ animation-delay: 0s;
+}
+
+
+
+
+.arq {
+    text-align: ; 
+    width: 48%; 
+    margin: 1%;
+    padding: 15px; 
+    display: block;
+    box-sizing: border-box; 
+ 
+      
+    }
+
+   
+.fotoarq {
+     
+    transition: 0.5s;
+}
+
+.fotoarq:hover 
+{
+    transform: scale(110%);
+
+}
+
+
+.arqui{
+ transition: 0.5s;
+}
+
+.arqui:hover 
+{
+    transform: scale(115%);
+
+}
+.obras{
+ transition: 0.5s;
+}
+
+.obras:hover 
+{
+    transform: scale(115%);
+
+}
+
+.form { 
+    background-color: #d5e6ea
+ }
+
+
+
+
+footer { 
+     padding: 3px; 
+     text-align: center;
+     background: linear-gradient(180deg, #8eb5be 0%, #d5e6ea 100%); 
+     font-family: "Montserrat"
+     
+      }
+
+
+footer p { 
+    
+     margin-top:15px;
+      }
+
+
+@keyframes entar{
+    0%{
+        transform: translateX(500px);
+        
+    }
+    50%{
+        transform: translateX(-50px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+
+
